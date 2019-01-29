@@ -114,6 +114,45 @@ footer {
     background-color: #777;
     padding: 35px;
     }
+	.dropbtn {
+  background-color: 008080;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #3498DB}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
@@ -132,8 +171,15 @@ footer {
 </header>
 <section>
   <nav>
- <div style="text-align:center;"><BR><BR><BR><BR><BR><B><B><u><center>SECOND YEAR</center></u></b><BR><li><a href="https://aameccse.github.io/odd2/">ODD SEMESTER</a></li><br>
-      <li><a href="https://aameccse.github.io/evan2/">EVEN SEMESTER</a></li></DIV>
+ <br><br><br><br><br><br><br>
+ <div class="dropdown" style="margin-left: 25%;">
+  <button class="dropbtn">SECOND YEAR</button>
+  <div class="dropdown-content">
+  <a href="https://aameccse.github.io/odd2/">ODD </a>
+  <a href="https://aameccse.github.io/evan2/">EVAN </a>
+  
+  </div>
+</div>
       
   </nav>
   
