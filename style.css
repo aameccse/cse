@@ -319,7 +319,7 @@ ul.sidenav li a:hover:not(.active) {
   
 }
 @media (max-width: 600px) {
-    nav,article,aside,lib,abt,m,m2 {
+    nav,article,aside,lib,abt,m,m2,n,n2 {
         width: 100%;
         height: auto;
     }
