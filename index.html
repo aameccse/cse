@@ -15,7 +15,9 @@
   *{ background-color: inherit} 
   
   </style>
-<body><div id="grad1">
+<body onload="digi()">
+	<script src="time.js"></script>
+	<div id="grad1">
 <div class="flip-box">
 <div class="flip-box-inner">
 <div class="flip-box-front">
@@ -41,7 +43,7 @@
   <li><a  class="tablinks" href="SYLLABUS.pdf" >Syllabus</a></li>
   <li><a class="tablinks" onclick="openTab(event, 'L')">Library</a></li>
   
-  <li><a class="tablinks" onclick="openTab(event, '03')" >About</a></li>
+  <li><a class="tablinks" onclick="openTab(event, '03')" >About</a></li><li><a id="tt"></a></li><li><a id="demo"></a></li>
   <div style="float:right;"><li><label class="switch"><span id="s">Mode:</span><input type="checkbox" id="themer"><div class="slider round"><span class="on">OFF</span><span class="off">DARK</span><!--END--></div></label></li></div>
 </ul>
 <div id="01" class="tabcontent">
